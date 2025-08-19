@@ -39,7 +39,7 @@ My research aims to bridge the gap between 2D and 3D perception, enabling robust
 #### **ALPI: Auto-Labeller with Proxy Injection for 3D Object Detection using 2D Labels Only**
 
   * **Saad Lahlali**, Nicolas Granger, Hervé Le Borgne, Quoc-Cuong Pham.
-  * *Winter Conference on Applications of Computer Vision (WACV), 2025.* **Summary:** The high cost of 3D annotation is a major bottleneck for training 3D object detectors. This work proposes ALPI, a weakly supervised 3D annotator that requires only 2D bounding box annotations and class size priors. To overcome the ambiguity of projecting 2D boxes back into 3D space, we introduce a novel and effective solution: injecting 3D "proxy objects" with known annotations into the training data. This allows the model to learn reliable 3D features. ALPI achieves performance close to fully supervised methods and is the first of its kind to be demonstrated on the challenging nuScenes dataset.
+  * *Winter Conference on Applications of Computer Vision (WACV), 2025.* **Summary:** The high cost of 3D annotation is a major bottleneck for training 3D object detectors. This work proposes ALPI, a weakly supervised 3D annotator that requires only 2D bounding box annotations and class size priors. To overcome the ambiguity of portfolioing 2D boxes back into 3D space, we introduce a novel and effective solution: injecting 3D "proxy objects" with known annotations into the training data. This allows the model to learn reliable 3D features. ALPI achieves performance close to fully supervised methods and is the first of its kind to be demonstrated on the challenging nuScenes dataset.
 
 -----
 
@@ -47,7 +47,7 @@ My research aims to bridge the gap between 2D and 3D perception, enabling robust
 
   * *Anonymous Submission to WACV 2026.*
 
-**Summary:** A significant challenge in weakly supervised 3D detection is *projection ambiguity*, where a single 2D box can correspond to many possible 3D poses. This paper proposes MVAT, a framework that leverages the natural multi-view data captured by a moving vehicle over time to resolve this ambiguity. Using a Teacher-Student distillation paradigm, the Teacher model learns from temporally aggregated point clouds of static objects to generate high-quality pseudo-labels. The Student model then learns to predict these labels from a single viewpoint, making it effective for both static and moving objects. MVAT achieves state-of-the-art performance, significantly narrowing the gap with fully supervised methods without using any 3D annotations.
+**Summary:** A significant challenge in weakly supervised 3D detection is *portfolioion ambiguity*, where a single 2D box can correspond to many possible 3D poses. This paper proposes MVAT, a framework that leverages the natural multi-view data captured by a moving vehicle over time to resolve this ambiguity. Using a Teacher-Student distillation paradigm, the Teacher model learns from temporally aggregated point clouds of static objects to generate high-quality pseudo-labels. The Student model then learns to predict these labels from a single viewpoint, making it effective for both static and moving objects. MVAT achieves state-of-the-art performance, significantly narrowing the gap with fully supervised methods without using any 3D annotations.
 
 -----
 

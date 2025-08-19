@@ -162,7 +162,7 @@ include:
   - _pages
   - files
 exclude:
-  - "*.sublime-project"
+  - "*.sublime-portfolio"
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle

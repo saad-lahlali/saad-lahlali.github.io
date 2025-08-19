@@ -571,7 +571,7 @@
 				this._generateInitialClusters();
 			}
 
-			this._maxLat = map.options.crs.projection.MAX_LATITUDE;
+			this._maxLat = map.options.crs.portfolioion.MAX_LATITUDE;
 
 			for (i = 0, l = this._needsRemoving.length; i < l; i++) {
 				layer = this._needsRemoving[i];
@@ -653,7 +653,7 @@
 			    gridUnclustered = this._gridUnclustered;
 
 			for (; z >= 0; z--) {
-				if (!gridUnclustered[z].removeObject(marker, map.project(marker.getLatLng(), z))) {
+				if (!gridUnclustered[z].removeObject(marker, map.portfolio(marker.getLatLng(), z))) {
 					break;
 				}
 			}
@@ -702,8 +702,8 @@
 					otherMarker = cluster._markers[0] === marker ? cluster._markers[1] : cluster._markers[0];
 
 					//Update distance grid
-					gridClusters[cluster._zoom].removeObject(cluster, map.project(cluster._cLatLng, cluster._zoom));
-					gridUnclustered[cluster._zoom].addObject(otherMarker, map.project(otherMarker.getLatLng(), cluster._zoom));
+					gridClusters[cluster._zoom].removeObject(cluster, map.portfolio(cluster._cLatLng, cluster._zoom));
+					gridUnclustered[cluster._zoom].addObject(otherMarker, map.portfolio(otherMarker.getLatLng(), cluster._zoom));
 
 					//Move otherMarker up to parent
 					this._arraySplice(cluster.__parent._childClusters, cluster);
@@ -918,7 +918,7 @@
 
 			//Find the lowest zoom level to slot this one in
 			for (; zoom >= 0; zoom--) {
-				markerPoint = this._map.project(layer.getLatLng(), zoom); // calculate pixel position
+				markerPoint = this._map.portfolio(layer.getLatLng(), zoom); // calculate pixel position
 
 				//Try find a cluster close by
 				var closest = gridClusters[zoom].getNearObject(markerPoint);
@@ -939,7 +939,7 @@
 					//Create new cluster with these 2 in it
 
 					var newCluster = new this._markerCluster(this, zoom, closest, layer);
-					gridClusters[zoom].addObject(newCluster, this._map.project(newCluster._cLatLng, zoom));
+					gridClusters[zoom].addObject(newCluster, this._map.portfolio(newCluster._cLatLng, zoom));
 					closest.__parent = newCluster;
 					layer.__parent = newCluster;
 
@@ -947,7 +947,7 @@
 					var lastParent = newCluster;
 					for (z = zoom - 1; z > parent._zoom; z--) {
 						lastParent = new this._markerCluster(this, z, lastParent);
-						gridClusters[z].addObject(lastParent, this._map.project(closest.getLatLng(), z));
+						gridClusters[z].addObject(lastParent, this._map.portfolio(closest.getLatLng(), z));
 					}
 					parent._addChild(lastParent);
 
@@ -1031,10 +1031,10 @@
 		},
 
 		/**
-		 * Expands the latitude to Infinity (or -Infinity) if the input bounds reach the map projection maximum defined latitude
+		 * Expands the latitude to Infinity (or -Infinity) if the input bounds reach the map portfolioion maximum defined latitude
 		 * (in the case of Web/Spherical Mercator, it is 85.0511287798 / see https://en.wikipedia.org/wiki/Web_Mercator#Formulas).
 		 * Otherwise, the removeOutsideVisibleBounds option will remove markers beyond that limit, whereas the same markers without
-		 * this option (or outside MCG) will have their position floored (ceiled) by the projection and rendered at that limit,
+		 * this option (or outside MCG) will have their position floored (ceiled) by the portfolioion and rendered at that limit,
 		 * making the user think that MCG "eats" them and never displays them again.
 		 * @param bounds L.LatLngBounds
 		 * @returns {L.LatLngBounds}
@@ -1919,7 +1919,7 @@
 
 			/*
 			 * @param {Array} baseLine a two-element array of latlng objects
-			 *   representing the baseline to project from
+			 *   representing the baseline to portfolio from
 			 * @param {Array} latLngs an array of latlng objects
 			 * @returns {Object} the maximum point and all new points to stay
 			 *   in consideration for the hull.

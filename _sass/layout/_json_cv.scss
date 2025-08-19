@@ -149,14 +149,14 @@
 }
 
 /* Project Styles */
-.cv-project-keywords {
+.cv-portfolio-keywords {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
 
-.cv-project-keyword {
+.cv-portfolio-keyword {
   background-color: var(--global-bg-color);
   color: var(--global-thead-color);
   padding: 0.25rem 0.5rem;
@@ -231,7 +231,7 @@
   }
   
   .cv-skill-keyword,
-  .cv-project-keyword,
+  .cv-portfolio-keyword,
   .cv-interest-keyword {
     border: 1px solid var(--global-border-color);
     background-color: transparent;
