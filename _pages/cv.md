@@ -11,54 +11,52 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Perception for Autonomous Driving**, Paris-Saclay University & CEA LIST, 2022-2025 (expected)
+* **Engineering Cycle & M.Sc. in Data Science and Artificial Intelligence**, Institut Polytechnique de Paris, 2019-2022
+* **Preparatory Classes (Mathematics and Physics)**, 2016-2019
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Apr. 2022 - Oct. 2022: Computer Vision Research Intern**
+    * CEA LIST, Palaiseau, France
+    * Duties included: Developed novel incremental learning methods for semantic segmentation in resource-constrained settings using a Transformer network.
+    * Outcome: Achieved state-of-the-art results.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Jun. 2021 - Sep. 2021: Research Intern**
+    * Institut Polytechnique de Paris, Palaiseau, France
+    * Duties included: Developed a robust algorithm using CNNs to detect early signs of Alzheimer's disease from handwriting samples and implemented an ensemble learning technique.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* **Jun. 2020 - Sep. 2020: Computer Vision Intern**
+    * Opinaka, Montpellier, France
+    * Duties included: Explored crowd counting algorithms, designed a Scale-Attention Autoencoder in TensorFlow, and optimized inference time.
+
+* **Jan. 2020 - Jun. 2020: Intern, Facial Emotion Analysis**
+    * VocaCoach, Paris, France
+    * Duties included: Cleaned and augmented the FER2013 image dataset, reduced class imbalance, and developed a seven-class emotion classification network using VGG19.
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Machine Learning**: Self-supervised Learning, Weakly Supervised Learning, Incremental Learning, Ensemble Learning, Transfer Learning
+* **Deep Learning**:
+    <!-- * **Architectures**: Transformers, Convolutional Neural Networks (CNNs), Autoencoders -->
+    * **Frameworks**: Pytorch, TensorFlow, OpenMMLab
+* **Computer Vision**: 3D Object Detection, Semantic Segmentation, Crowd Counting, Facial Emotion Analysis, Medical Imaging
+* **Programming & Data Science**: Python, Object Oriented Programming, Statistics, Optimization, Databases, Data Augmentation
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+  {% endfor %}</ul> -->
+
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}</ul> -->
