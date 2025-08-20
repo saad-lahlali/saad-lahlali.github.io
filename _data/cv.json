@@ -1,61 +1,103 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Saad Lahlali",
+    "email": "saad7lahlali@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://github.com/saad20501",
+    "summary": "PhD Candidate in Computer Vision & 3D Perception with a focus on developing novel architectures for robust multi-modal object detection and segmentation with limited labeled data using self-supervised and weakly supervised approaches.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Palaiseau",
+      "countryCode": "FR",
+      "region": "Île-de-France"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "saad20501",
+        "url": "https://github.com/saad20501"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "saad-lahlali",
+        "url": "https://linkedin.com/in/saad-lahlali"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "CEA LIST",
+      "position": "Computer Vision Research Intern: Incremental Learning",
+      "startDate": "2022-04",
+      "endDate": "2022-10",
+      "summary": "Developed novel incremental learning methods for semantic segmentation in resource-constrained settings using a Transformer network, achieving state-of-the-art results."
+    },
+    {
+      "company": "Institut Polytechnique de Paris",
+      "position": "Research Intern: Alzheimer Detection from Handwriting",
+      "startDate": "2021-06",
+      "endDate": "2021-09",
+      "summary": "Developed a robust algorithm using CNNs to detect early signs of Alzheimer's disease from handwriting samples. Implemented an ensemble learning technique that improved classification accuracy by 10%."
+    },
+    {
+      "company": "Opinaka",
+      "position": "Computer Vision Intern: Crowd Counting",
+      "startDate": "2020-06",
+      "endDate": "2020-09",
+      "summary": "Explored advanced crowd counting algorithms for real-time video analytics. Designed a Scale-Attention Autoencoder with Inception Modules in TensorFlow and optimized inference time by 50% while maintaining an error rate below 25 MAE on the ShanghaiTech dataset."
+    },
+    {
+      "company": "VocaCoach",
+      "position": "Intern: Facial Emotion Analysis",
+      "startDate": "2020-01",
+      "endDate": "2020-06",
+      "summary": "Cleaned and augmented the FER2013 image dataset to enhance training data quality and reduced class imbalance through web scraping. Developed a seven-class emotion classification network using VGG19 with transfer learning."
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Paris-Saclay University & CEA LIST",
+      "area": "PhD in Perception for Autonomous Driving",
+      "studyType": "PhD",
+      "startDate": "2022-12",
+      "endDate": "2025-12",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Multi-modal object detection",
+        "Segmentation",
+        "Self-supervised learning",
+        "Weakly supervised learning"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "institution": "Institut Polytechnique de Paris",
+      "area": "Engineering Cycle",
+      "studyType": "Engineering Degree",
+      "startDate": "2019",
+      "endDate": "2022",
+      "gpa": "4/4",
+      "courses": [
+        "Statistics",
+        "Optimization",
+        "Object Oriented Programming",
+        "Linear Algebra",
+        "Databases",
+        "3D Computer Vision",
+        "Deep Learning for Medical Imaging",
+        "Reinforcement Learning",
+        "Mining of Large Datasets",
+        "Learning for Robotics",
+        "Perception for autonomous systems",
+        "Explainable AI"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Preparatory Classes",
+      "area": "Mathematics and Physics",
+      "studyType": "Competitive Exam Preparation",
+      "startDate": "2016",
+      "endDate": "2019",
       "gpa": null,
       "courses": []
     }
@@ -66,87 +108,21 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "ALPI: Auto-Labeller with Proxy Injection for 3D Object Detection using 2D Labels Only",
+      "publisher": "WACV 2025",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Authors: Saad Lahlali, Nicolas Granger, Hervé Le Borgne, Quoc-Cuong Pham."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Cross-Modal Distillation for 2D/3D Multi-Object Discovery from 2D Motion",
+      "publisher": "CVPR 2025",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Authors: Saad Lahlali*, Sandra Kara*, Hejer Ammar, Florian Chabot, Nicolas Granger, Hervé Le Borgne, Quoc-Cuong Pham."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Projects item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
