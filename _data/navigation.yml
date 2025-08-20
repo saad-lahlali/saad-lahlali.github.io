@@ -11,8 +11,7 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Playlists"
-    url: /playlists/    
+  
 
   # - title: "Teaching"
   #   url: /teaching/    
@@ -31,3 +30,6 @@ main:
     
   # - title: "Guide"
   #   url: /markdown/
+
+  - title: "Playlists"
+    url: /playlists/  
