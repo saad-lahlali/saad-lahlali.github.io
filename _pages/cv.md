@@ -49,10 +49,10 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-<!-- Talks
+<!-- Playlists
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+  <ul>{% for post in site.playlists reversed %}
+    {% include archive-single-playlist-cv.html  %}
   {% endfor %}</ul> -->
 
 <!-- Teaching

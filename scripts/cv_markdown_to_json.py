@@ -277,15 +277,15 @@ def parse_publications(pub_dir):
     
     return publications
 
-def parse_talks(talks_dir):
-    """Parse talks from the _talks directory."""
-    talks = []
+def parse_playlists(playlists_dir):
+    """Parse playlists from the _playlists directory."""
+    playlists = []
     
-    if not os.path.exists(talks_dir):
-        return talks
+    if not os.path.exists(playlists_dir):
+        return playlists
     
-    for talk_file in sorted(glob.glob(os.path.join(talks_dir, "*.md"))):
-        with open(talk_file, 'r', encoding='utf-8') as file:
+    for playlist_file in sorted(glob.glob(os.path.join(playlists_dir, "*.md"))):
+        with open(playlist_file, 'r', encoding='utf-8') as file:
             content = file.read()
         
         # Extract front matter
@@ -293,8 +293,8 @@ def parse_talks(talks_dir):
         if front_matter_match:
             front_matter = yaml.safe_load(front_matter_match.group(1))
             
-            # Extract talk details
-            talk_entry = {
+            # Extract playlist details
+            playlist_entry = {
                 "name": front_matter.get('title', ''),
                 "event": front_matter.get('venue', ''),
                 "date": front_matter.get('date', ''),
@@ -302,9 +302,9 @@ def parse_talks(talks_dir):
                 "description": front_matter.get('excerpt', '')
             }
             
-            talks.append(talk_entry)
+            playlists.append(playlist_entry)
     
-    return talks
+    return playlists
 
 def parse_teaching(teaching_dir):
     """Parse teaching from the _teaching directory."""
@@ -389,8 +389,8 @@ def create_cv_json(md_file, config_file, repo_root, output_file):
     # Add publications
     cv_json["publications"] = parse_publications(os.path.join(repo_root, "_publications"))
     
-    # Add talks
-    cv_json["presentations"] = parse_talks(os.path.join(repo_root, "_talks"))
+    # Add playlists
+    cv_json["presentations"] = parse_playlists(os.path.join(repo_root, "_playlists"))
     
     # Add teaching
     cv_json["teaching"] = parse_teaching(os.path.join(repo_root, "_teaching"))

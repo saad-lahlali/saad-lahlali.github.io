@@ -1,0 +1,13 @@
+---
+title: "Playlist for Disseminating Your Work"
+collection: "phd-playlists"
+type: "Playlist"
+permalink: /playlists/dissemination
+venue: "Confidence & Social Energy"
+date: 2025-08-19
+location: "Conference Hall"
+---
+
+**Genre:** Funk \\
+**Why it fits:** This playlist is designed to boost your energy and confidence for presenting at conferences and networking. Funk is pure, infectious energy. Its tight rhythm sections and celebratory feel are perfect for getting you into an open, positive, and social mindset before a big playlist or poster session.\\
+**Artist Suggestions:** James Brown, Parliament-Funkadelic, Sly and the Family Stone.

@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Playlists"
+permalink: /playlists/
+author_profile: true
+---
+
+{% if site.playlistmap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/playlistmap.html">See a map of all the places I've given a playlist!</a></p>
+
+{% endif %}
+
+{% for post in site.playlists reversed %}
+  {% include archive-single-playlist.html %}
+{% endfor %}

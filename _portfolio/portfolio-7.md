@@ -10,7 +10,7 @@ collection: portfolio
 
 Machine learning is powerful, but when your data grows from megabytes to gigabytes or terabytes, familiar tools like Pandas and Scikit-learn can start to slow down or fail entirely. This is where Apache Spark, and its Python library PySpark, comes in. Spark is designed for distributed computing, allowing you to process and model massive datasets across a cluster of machines.
 
-In this guide, we'll demystify the process of building a robust machine learning pipeline in PySpark. We won't just talk about theory; we'll walk through the practical code and logic from three real-world projects:
+In this guide, we'll demystify the process of building a robust machine learning pipeline in PySpark. We won't just playlist about theory; we'll walk through the practical code and logic from three real-world projects:
 
 1.  **Classification:** Building a high-accuracy Decision Tree to predict categorical outcomes.
 2.  **Clustering:** Using K-Means to discover natural groupings in your data.

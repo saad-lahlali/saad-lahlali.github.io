@@ -30,7 +30,7 @@ Our task is to build the `disambiguate()` function that takes the ambiguous labe
 
 ### The Game Plan: A Four-Step Approach
 
-My strategy was to build a system that mimics how a human might solve this problem: by comparing contexts. If the article mentions "film," "director," and "Argentina," it's probably talking about the movie, not the ancient city.
+My strategy was to build a system that mimics how a human might solve this problem: by comparing contexts. If the article mentions "film," "director," and "Argentina," it's probably playlisting about the movie, not the ancient city.
 
 I broke the process down into four main steps:
 
