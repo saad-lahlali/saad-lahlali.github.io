@@ -128,4 +128,4 @@ This project lays a solid foundation for more advanced autonomous robot behavior
 
 ## Code ✅
 
-You can access the full source code at the [Teresa_Robot GitHub Repository](https://github.com/saad2050l/Teresa_Robot/tree/master).
+You can access the full source code at the [Teresa_Robot GitHub Repository](https://github.com/saad-lahlali/Teresa_Robot/tree/master).

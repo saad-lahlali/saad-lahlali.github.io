@@ -13,9 +13,9 @@ title                    : "Saad Lahlali"
 title_separator          : "-"
 name                     : &name "Saad Lahlali"
 description              : &description "PhD Candidate in Computer Vision & 3D Perception."
-url: "https://saad2050l.github.io"
+url: "https://saad-lahlali.github.io"
 baseurl: ""
-repository               : "saad2050l/saad2050l.github.io"
+repository               : "saad-lahlali/saad-lahlali.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -47,7 +47,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "saad2050l"
+  github           : "saad-lahlali"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
