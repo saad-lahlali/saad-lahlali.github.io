@@ -9,5 +9,5 @@ location: "Your Favorite Coffee Shop"
 ---
 
 **Genre:** Minimalism \\
-**Why it fits:** This playlist is for the cyclical process of drafting, reviewing, and revising papers. Minimalism, with its repetitive phrasing and slowly evolving landscapes, can lock you into the focused, iterative rhythm of writing. It mirrors the act of building a complex argument from simple, repeated elements, helping you meticulously refine your work.\\
+**Why it fits:** Writing a paper means rewriting it over and over. Minimalism totally gets this. Its repeating sounds that slowly change are like fixing the same sentence until it's perfect. The music helps quiet the self-doubt in your head and gets you "in the zone," turning a long, hard job into a moment of calm focus.\\
 **Artist Suggestions:** Philip Glass, Steve Reich, Max Richter.

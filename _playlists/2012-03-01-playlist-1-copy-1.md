@@ -9,5 +9,5 @@ location: "The Path Home"
 ---
 
 **Genre:** Dream Pop / Shoegaze \\
-**Why it fits:** This playlist is for the walk home, providing time to decompress and let your mind wander. The hazy, ethereal, and atmospheric textures of Dream Pop and Shoegaze create the perfect introspective soundscape. It's music to get lost in, allowing your thoughts to drift and connect in new, unexpected ways, creating space for those "shower thought" moments.\\
+**Why it fits:** At the end of the day, your brain is tired. This music is like a soft, echoey pillow for your mind to rest on. The hazy sound lets your hard thinking melt away. It's in this relaxed state that great new ideas can pop up by surprise. This music is a good way to turn your brain off for the day.\\
 **Artist Suggestions:** Beach House, Cocteau Twins, Slowdive.

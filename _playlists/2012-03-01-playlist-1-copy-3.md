@@ -9,5 +9,5 @@ location: "Home Stretch"
 ---
 
 **Genre:** Epic Orchestral / Film Score \\
-**Why it fits:** This playlist is for the final step: synthesizing all your work into your PhD thesis. This task demands a soundtrack that feels equally grand and momentous. Epic orchestral scores provide that sense of scale, journey, and emotional weight, making you feel like the hero at the end of their quest as you weave your projects into a cohesive narrative.\\
+**Why it fits:** You've reached the final boss: your thesis. To get through it, you need to feel like a hero. This music gives a serious, emotional feeling to your work, making it seem like finishing each chapter is a huge victory. It helps you believe that even fixing your references is a heroic act, like in a movie. You are the main character, and this is your theme song.\\
 **Artist Suggestions:** Hans Zimmer, John Williams, Ramin Djawadi.

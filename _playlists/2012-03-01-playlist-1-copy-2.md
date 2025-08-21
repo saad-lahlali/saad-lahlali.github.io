@@ -9,5 +9,5 @@ location: "The Path to Campus"
 ---
 
 **Genre:** Indie Pop \\
-**Why it fits:** This playlist is for the walk to the lab, setting a positive and productive tone for the day. Indie Pop's bright melodies and brisk tempos are energetic enough to get you moving but light enough not to be overwhelming. It helps build a sense of gentle optimism and mental readiness as you plan your day's tasks.\\
+**Why it fits:** Your brain is still waking up, so you need something gentle. Indie Pop is like a good cup of tea in music form. Its catchy, breezy tunes are just enough to wake up your brain and help you make a to-do list for the day. It gives you a cheerful feeling that you definitely need to get started.\\
 **Artist Suggestions:** Belle and Sebastian, Vampire Weekend, Alvvays.

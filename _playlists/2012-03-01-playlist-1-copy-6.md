@@ -9,5 +9,5 @@ location: "The Lab (Late Night)"
 ---
 
 **Genre:** Ambient \\
-**Why it fits:** This playlist is suited for the long periods of waiting for experiments to run, followed by intense focus on analyzing results. Ambient music serves as an unobtrusive sonic texture that fills the space without demanding attention, perfect for waiting. When analyzing data, it provides a focus-enhancing environment that helps you sink into a state of flow.\\
+**Why it fits:** This music is for the long hours you have to wait for your experiments to finish. Ambient sound is like a lava lamp: it fills the silence with soft, changing sounds without ever bugging you. It’s a background hum that lets you know everything is still running, so you can relax and focus on your results.\\
 **Artist Suggestions:** Brian Eno, Stars of the Lid, Aphex Twin (Selected Ambient Works).

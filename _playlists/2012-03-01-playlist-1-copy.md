@@ -9,5 +9,5 @@ location: "Whiteboard Room"
 ---
 
 **Genre:** Post-Rock \\
-**Why it fits:** This playlist supports the journey of formulating a clear research problem. Post-rock's instrumental pieces often build from simple, ambient textures to a dramatic climax, mirroring the mental process of sifting through a wide landscape of ideas to narrow down a single, impactful research question. The music's structure follows a path of exploration and discovery.\\
+**Why it fits:** This is the perfect music for staring at a whiteboard. These long songs start quiet and small, like a single fuzzy idea. Then they wander and build, ending in a huge, loud, exciting finish—just like that moment you finally find the perfect research question. It's the sound of a big "I've got it!" moment.\\
 **Artist Suggestions:** Explosions in the Sky, Godspeed You! Black Emperor, Mogwai.

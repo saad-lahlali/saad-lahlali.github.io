@@ -9,5 +9,5 @@ location: "GPU Cluster Terminal"
 ---
 
 **Genre:** Synthwave \\
-**Why it fits:** This playlist provides the momentum for the highly practical phase of translating ideas into working code. Synthwave's driving, retro-futuristic electronic beats provide a powerful, energetic rhythm that helps you push through hours of coding, data management, and relentless debugging. It's the perfect soundtrack for building the future, one line of code at a time.\\
+**Why it fits:** It's late, you're staring at your screen, and you're not just coding—you're the hero in an 80s movie. Synthwave has a driving, electronic beat that’s perfect for pushing through hours of work. It’s the soundtrack for beating coding errors and chugging coffee, making your work feel like a high-speed chase in a neon city.\\
 **Artist Suggestions:** Kavinsky, The Midnight, Carpenter Brut.

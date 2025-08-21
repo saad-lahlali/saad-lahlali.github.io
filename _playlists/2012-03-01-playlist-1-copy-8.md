@@ -9,5 +9,5 @@ location: "The Zone"
 ---
 
 **Genre:** Jazz Fusion \\
-**Why it fits:** This playlist is for the core creative part of your PhD: brainstorming and designing a new algorithm or technique. Jazz Fusion blends complex improvisation with disparate styles, inspiring the "out-of-the-box" thinking required to design a novel method. It perfectly marries raw creativity with rigorous technical skill, just as you formalize your ideas using mathematics.\\
+**Why it fits:** Sometimes your brain needs to get a little weird to come up with something new. This music is wild but brilliant, mixing different styles in a way that sounds exciting and unpredictable. It gives you the freedom to try a crazy new idea, because great new things are often found between a wild guitar solo and a cool bassline.\\
 **Artist Suggestions:** Mahavishnu Orchestra, Weather Report, Herbie Hancock.

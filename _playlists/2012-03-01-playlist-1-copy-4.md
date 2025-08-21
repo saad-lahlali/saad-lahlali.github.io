@@ -9,5 +9,5 @@ location: "Conference Hall"
 ---
 
 **Genre:** Funk \\
-**Why it fits:** This playlist is designed to boost your energy and confidence for presenting at conferences and networking. Funk is pure, infectious energy. Its tight rhythm sections and celebratory feel are perfect for getting you into an open, positive, and social mindset before a big playlist or poster session.\\
+**Why it fits:** It's hard to feel like you're not good enough when this music is playing. Before you talk in front of people who seem way smarter than you, you need a big dose of confidence. Funk gives you that boost, making you want to walk up to the front with the cool, unstoppable feeling of a funky bassline.\\
 **Artist Suggestions:** James Brown, Parliament-Funkadelic, Sly and the Family Stone.
