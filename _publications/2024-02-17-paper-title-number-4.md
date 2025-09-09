@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/xMOD
 excerpt: 'Object discovery, the task of localizing objects without human annotations, is well-studied in 2D but under-explored in 3D, where methods often rely on challenging 3D motion cues. This paper introduces a new framework that leverages flexible and generalizable 2D motion cues for 3D object discovery, bridging the gap between the two modalities. We present two main contributions: (i) DIOD-3D, a baseline for 3D multi-object discovery using 2D motion, which uses scene completion to handle sparse input data, and (ii) XMOD, a cross-modal, teacher-student training framework that integrates 2D and 3D data to reduce confirmation bias. The final model supports RGB-only, point cloud-only, or multi-modal inputs at inference, with a late-fusion technique to further boost performance. Our approach shows significant performance gains on synthetic (TRIP-PD) and real-world (KITTI, Waymo) datasets, with F1 score improvements ranging from +8.7 to +15.1 over the 2D state-of-the-art.'
 date: 2025-06-01
-venue: 'Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
+venue: 'CVPR'
 paperurl: https://openaccess.thecvf.com/content/CVPR2025/html/Lahlali_Cross-Modal_Distillation_for_2D3D_Multi-Object_Discovery_from_2D_Motion_CVPR_2025_paper.html
 codeurl: https://github.com/CEA-LIST/xMOD/tree/main
 citation: '@InProceedings{Lahlali_2025_CVPR,

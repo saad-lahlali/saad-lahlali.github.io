@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/ALPI
 excerpt: '3D object detection is crucial for applications like autonomous driving, but training detectors requires expensive 3D annotations. This paper proposes ALPI, a weakly supervised 3D annotator that only needs 2D bounding box annotations and object size priors. To overcome the ambiguity of projecting 3D poses into 2D, the method injects 3D proxy objects with known annotations into the training data. The approach also introduces a novel depth-invariant 2D loss to better align supervision with 3D detection and uses an offline pseudo-labeling scheme to gradually improve its annotations. Experiments show the method performs as well as or better than previous works on the KITTI dataset''s Car category and achieves near fully supervised performance on more challenging classes like Pedestrian and Cyclist.'
 date: 2025-02-01
-venue: 'IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)'
+venue: 'WACV'
 paperurl: 'https://openaccess.thecvf.com/content/WACV2025/html/Lahlali_ALPI_Auto-Labeller_with_Proxy_Injection_for_3D_Object_Detection_using_WACV_2025_paper.html'
 codeurl: 'https://github.com/CEA-LIST/ALPI'  
 citation: '@InProceedings{Lahlali_2025_WACV,
